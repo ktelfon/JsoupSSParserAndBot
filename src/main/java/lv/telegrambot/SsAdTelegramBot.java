@@ -9,8 +9,6 @@ import java.util.List;
 
 public class SsAdTelegramBot {
 
-    //TODO: Store bot token in file, refactor some methods, add git igrnore, upload to git, make new file with links every day
-    // get chat id https://api.telegram.org/bot404603421:AAFf6e0zNg2N5Pr3_WpPxo2anRhPpA6zrgk/getUpdates
     private static final String botToken = "";
     private static final String chatId = "";
     private static final String greeting = "Hello! This is whats up!";
