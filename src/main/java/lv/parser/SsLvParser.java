@@ -101,7 +101,7 @@ public class SsLvParser {
         String rooms = allTds.get(4).select("b").get(0).text();
         String area = allTds.get(5).select("b").get(0).text();
         String floor = allTds.get(6).select("b").get(0).text();
-        int cost = Integer.parseInt(allTds.get(9).select("b").get(0).text().replaceAll(",", ""));
+        double cost = Double.parseDouble(allTds.get(9).select("b").get(0).text().replaceAll(",", ""));
 
         if(sp.getCostBottom() > cost || sp.getCostTop() < cost){
             return null;
